@@ -8,10 +8,10 @@ public class ciftSayiToplama {
         do {
             System.out.print("Sayi Giriniz : ");
             n = inp.nextInt();
-            if (n%4==0 && n%2==0){
+            if (n%4==0){
                 sum+=n;
             }
-        }while (n > 0);
+        }while (n%2==0);
         System.out.println("Toplam : " + sum);
     }
 }
